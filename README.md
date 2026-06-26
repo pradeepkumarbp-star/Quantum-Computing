@@ -1,46 +1,47 @@
-# Chest X-Ray Classification — Hybrid Quantum-Classical CNN (Results)
+# Quantum-Enhanced Hybrid Predictive Framework for Cardiovascular Disease Diagnosis
 
-This repository showcases the **results** of a hybrid quantum-classical deep
-learning model trained to classify chest X-ray images into three categories:
-`Lung_Opacity`, `Normal`, and `Viral Pneumonia`.
+## Overview
+This project presents a hybrid Quantum-Enhanced Machine Learning (QuEML) framework for cardiovascular disease prediction. The framework combines classical machine learning, quantum feature encoding, ensemble learning, and deep neural meta-learning to improve predictive performance on heart disease datasets.
 
-> **Note:** Source code and implementation details are kept private.
-> This repository contains only the model's performance results and
-> training outputs.
+## Project Highlights
+- Hybrid Quantum-Classical Architecture
+- Advanced Clinical Feature Engineering
+- Quantum Feature Encoding using Variational Quantum Circuits
+- Ensemble Learning with Multiple Base Models
+- MLP-Based Meta Learner
+- 10-Fold Stratified Cross Validation
+- SMOTE-Based Class Balancing
 
-## 📊 Results Summary
 
-| Metric                     | Value   |
-|------------------------------|---------|
-| Final Test Accuracy           | 92.22%  |
-| Macro Precision                | 92.72%  |
-| Macro Recall (Sensitivity)     | 92.68%  |
-| Macro F1-Score                  | 92.69%  |
-| Best Validation Epoch           | 21 / 25 |
+### Class Distribution
+- Heart Disease Positive: 629
+- Heart Disease Negative: 561
 
-*(Precision/Recall/F1 above are computed directly from the confusion matrix counts.)*
 
-## 📈 Training History
+## Repository Structure
 
-![Training History](results/training_history.png)
-
-## 🔢 Confusion Matrix
-
-![Confusion Matrix](results/confusion_matrix.png)
-
-## 📁 Repository Structure
-
-```
+```text
 .
 ├── README.md
-└── results/
-    ├── training_history.png
-    ├── confusion_matrix.png
-    └── metrics_report.txt
+├── Documentation/
+│   ├── Thesis_Report.pdf
+│   └── Architecture_Diagram.png
+├── Results/
+│   ├── Accuracy_Comparison.png
+│   ├── Confusion_Matrix.png
+│   ├── ROC_Curve.png
+│   └── Feature_Importance.png
+└── Screenshots/
 ```
 
-## ℹ️ About
+## Results to Upload
+- ROC Curve
+- Confusion Matrix
+- Accuracy Comparison Graphs
+- Feature Importance Plots
+- Training Screenshots
 
-This project explores hybrid quantum-classical architectures applied to
-medical imaging. Implementation details, architecture, and training code
-are not publicly shared.
+
+## Academic Note
+The implementation source code is intentionally withheld to preserve academic originality and intellectual property. This repository is intended to showcase project methodology, architecture, experimental results, and research contributions.
+
