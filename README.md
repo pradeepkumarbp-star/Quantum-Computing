@@ -1,47 +1,48 @@
-# Quantum-Enhanced Hybrid Predictive Framework for Cardiovascular Disease Diagnosis
+# XplainQC-Glioma — Hybrid DL-VQC Glioma Classification (Results)
 
-## Overview
-This project presents a hybrid Quantum-Enhanced Machine Learning (QuEML) framework for cardiovascular disease prediction. The framework combines classical machine learning, quantum feature encoding, ensemble learning, and deep neural meta-learning to improve predictive performance on heart disease datasets.
+This repository showcases the **results** of a hybrid quantum-classical deep learning framework trained to classify brain glioma molecular subtypes into three categories: `Astrocytoma` , `Oligodendroglioma` , and `GBM (Glioblastoma)`.
 
-## Project Highlights
-- Hybrid Quantum-Classical Architecture
-- Advanced Clinical Feature Engineering
-- Quantum Feature Encoding using Variational Quantum Circuits
-- Ensemble Learning with Multiple Base Models
-- MLP-Based Meta Learner
-- 10-Fold Stratified Cross Validation
-- SMOTE-Based Class Balancing
+> **Note:** Source code and implementation details are kept private. This repository contains only the model's performance results and training outputs.
 
+## 📊 Results Summary
 
-### Class Distribution
-- Heart Disease Positive: 629
-- Heart Disease Negative: 561
+| Metric | Value |
+|---|---|
+| Final Test Accuracy (DNN-VQC) | 86.19% |
+| Final Test Accuracy (Stacked Ensemble) | 87.62% |
+| Macro Precision | 92.0% |
+| Macro Recall (Sensitivity) | 92.0% |
+| Macro F1-Score | 92.0% |
+| AUC-ROC (DNN-VQC) | 0.906 |
+| AUC-ROC (Stacked Ensemble) | 0.919 |
+| 5-Fold CV Accuracy | 0.873 ± 0.022 |
+| Best Validation Epoch | 40–60 / 100 |
 
+*(Precision/Recall/F1 above are macro-averaged across all three glioma subtypes on the 210-patient held-out test set.)*
 
-## Repository Structure
+## 📈 Training History
 
-```text
+![Training History](results/training_history.png)
+
+## 🔢 Confusion Matrix
+
+![Confusion Matrix](results/confusion_matrix.png)
+
+## 📉 ROC Curves
+
+![ROC Curves](results/roc_curves.png)
+
+## 🗂️ Repository Structure
+
+```
 .
 ├── README.md
-├── Documentation/
-│   ├── Thesis_Report.pdf
-│   └── Architecture_Diagram.png
-├── Results/
-│   ├── Accuracy_Comparison.png
-│   ├── Confusion_Matrix.png
-│   ├── ROC_Curve.png
-│   └── Feature_Importance.png
-└── Screenshots/
+└── results/
+    ├── training_history.png
+    ├── confusion_matrix.png
+    └── roc_curves.png
 ```
 
-## Results to Upload
-- ROC Curve
-- Confusion Matrix
-- Accuracy Comparison Graphs
-- Feature Importance Plots
-- Training Screenshots
+## ℹ️ About
 
-
-## Academic Note
-The implementation source code is intentionally withheld to preserve academic originality and intellectual property. This repository is intended to showcase project methodology, architecture, experimental results, and research contributions.
-
+This project explores hybrid quantum-classical architectures applied to brain tumor genomics. Implementation details, circuit architecture, and training code are not publicly shared.
